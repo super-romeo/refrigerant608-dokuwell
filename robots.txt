@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://refrigerant608.dokuwell.com/sitemap.xml
