@@ -16,6 +16,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For HVAC contractors servicing commercial refrigeration: log every refrigerant charge, get the leak rate and keep Section 608 records.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -75,38 +79,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">608 Leak Log</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">608 Leak Log</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Every refrigerant charge logged, leak rate calculated, Section 608 records ready</h1>
-    <p class="sub">For HVAC contractors servicing commercial refrigeration: technicians log each refrigerant addition on the phone, the leak rate is calculated automatically, repair and verification deadlines are tracked, and the records for each appliance are ready when the customer or EPA asks.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For HVAC contractors</p>
+      <h1 class="rise" style="--i:1" data-len="long">Every refrigerant charge logged, leak rate calculated, Section 608 records ready</h1>
+      <p class="rise" style="--i:2">For HVAC contractors servicing commercial refrigeration: technicians log each refrigerant addition on the phone, the leak rate is calculated automatically, repair and verification deadlines are tracked, and the records for each appliance are ready when the customer or EPA asks.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="165" font-size="40" fill="#0a1524" font-weight="600">Section 608</text><line x1="120" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="292" font-size="32" fill="#0a1524">leak rate</text><rect x="130" y="360" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="392" font-size="32" fill="#0a1524">appliance</text><rect x="130" y="460" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="492" font-size="32" fill="#0a1524">records</text><rect x="130" y="560" width="44" height="44" fill="#eef2f7" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="572" width="240" height="20" fill="#dde2ea" rx="8" /><rect x="700" y="250" width="370" height="410" fill="#dfe8f7" rx="20" /><rect x="750" y="460" width="46" height="160" fill="#b9c3d2" rx="8" /><rect x="840" y="550" width="46" height="70" fill="#ffffff" rx="8" /><rect x="930" y="500" width="46" height="120" fill="#dde2ea" rx="8" /><rect x="1020" y="430" width="46" height="190" fill="#12397a" rx="8" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>HVAC contractors</dd></div>
+      <div><dt>Log</dt><dd>Refrigerant addition</dd></div>
+      <div><dt>Rate</dt><dd>Leak rate calculated</dd></div>
+      <div><dt>Access</dt><dd>Early access</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Refrigerant log</b><span>Each addition and recovery by appliance: refrigerant type, pounds, technician and date.</span><br><a class="btn" href="price.html" data-ev="feature_log">I need this</a></div>
-      <div class="card"><b>Leak rate calculation</b><span>Leak rate calculated automatically after each charge, compared with the threshold for the appliance type.</span><br><a class="btn" href="price.html" data-ev="feature_leakrate">I need this</a></div>
-      <div class="card"><b>Repair deadlines</b><span>Repair and verification test deadlines when a leak rate is over the threshold.</span><br><a class="btn" href="price.html" data-ev="feature_deadlines">I need this</a></div>
-      <div class="card"><b>Technician certifications</b><span>Section 608 certification of each technician stored with the records they sign.</span><br><a class="btn" href="price.html" data-ev="feature_certs">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="34" fill="#0a1524" font-weight="600">refrigerant type</text><rect x="140" y="210" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="150,232 158,242 174,222" fill="none" stroke="#12397a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" /><rect x="210" y="222" width="300" height="20" fill="#dde2ea" rx="8" /><rect x="140" y="300" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="150,322 158,332 174,312" fill="none" stroke="#12397a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" /><rect x="210" y="312" width="240" height="20" fill="#b9c3d2" rx="8" /><rect x="140" y="390" width="44" height="44" fill="#dfe8f7" rx="8" /><rect x="152" y="406" width="20" height="12" fill="#ffffff" rx="3" stroke="#dde2ea" stroke-width="3" /><rect x="210" y="402" width="270" height="20" fill="#dde2ea" rx="8" /></svg></div>
+        <h3>Refrigerant log</h3><p>Each addition and recovery by appliance: refrigerant type, pounds, technician and date.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_log">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="155" font-size="36" fill="#0a1524" font-weight="600">leak rate</text><line x1="140" y1="430" x2="660" y2="430" stroke="#12397a" stroke-width="6" /><rect x="180" y="250" width="70" height="180" fill="#b9c3d2" rx="8" /><rect x="300" y="170" width="70" height="260" fill="#dfe8f7" rx="8" /><rect x="420" y="300" width="70" height="130" fill="#dde2ea" rx="8" /><rect x="540" y="210" width="70" height="220" fill="#b9c3d2" rx="8" /></svg></div>
+        <h3>Leak rate calculation</h3><p>Leak rate calculated automatically after each charge, compared with the threshold for the appliance type.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_leakrate">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="32" fill="#0a1524" font-weight="600">verification test</text><rect x="140" y="200" width="70" height="52" fill="#dfe8f7" rx="8" /><rect x="230" y="200" width="70" height="52" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="320" y="200" width="70" height="52" fill="#dfe8f7" rx="8" /><rect x="410" y="200" width="70" height="52" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="140" y="280" width="70" height="52" fill="#12397a" rx="8" /><rect x="230" y="280" width="70" height="52" fill="#dfe8f7" rx="8" /><rect x="320" y="280" width="70" height="52" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="410" y="280" width="70" height="52" fill="#dfe8f7" rx="8" /><rect x="140" y="360" width="70" height="52" fill="#dfe8f7" rx="8" /><rect x="230" y="360" width="70" height="52" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="320" y="360" width="70" height="52" fill="#dfe8f7" rx="8" /><rect x="410" y="360" width="70" height="52" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="140" y="460" width="220" height="18" fill="#dde2ea" rx="8" /><rect x="380" y="460" width="140" height="18" fill="#b9c3d2" rx="8" /></svg></div>
+        <h3>Repair deadlines</h3><p>Repair and verification test deadlines when a leak rate is over the threshold.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_deadlines">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="36" fill="#0a1524" font-weight="600">certification</text><rect x="120" y="200" width="340" height="270" fill="#eef2f7" rx="12" /><rect x="150" y="240" width="260" height="18" fill="#dde2ea" rx="8" /><rect x="150" y="286" width="190" height="18" fill="#b9c3d2" rx="8" /><rect x="150" y="332" width="230" height="18" fill="#dde2ea" rx="8" /><rect x="150" y="378" width="150" height="18" fill="#b9c3d2" rx="8" /><circle cx="560" cy="390" r="58" fill="#dfe8f7" /><polyline points="528,390 550,416 598,352" fill="none" stroke="#12397a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" /></svg></div>
+        <h3>Technician certifications</h3><p>Section 608 certification of each technician stored with the records they sign.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_certs">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">Grocery store, rack system with 1,200 lb of R-448A. Technician adds 65 lb on October 3. Leak rate calculated and over the threshold for commercial refrigeration — repair deadline set, verification tests scheduled, customer notified with the record.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>Grocery store, rack system with 1,200 lb of R-448A. Technician adds 65 lb on October 3. Leak rate calculated and over the threshold for commercial refrigeration — repair deadline set, verification tests scheduled, customer notified with the record.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="160" x2="1000" y2="160" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="160" r="22" fill="#12397a" /><text x="240" y="250" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">October 3</text><text x="600" y="250" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">65 lb</text><text x="960" y="250" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">R-448A</text><rect x="120" y="320" width="960" height="390" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="410" font-size="36" fill="#0a1524" font-weight="600">repair deadline</text><rect x="170" y="500" width="200" height="24" fill="#dde2ea" rx="8" /><rect x="400" y="500" width="150" height="24" fill="#b9c3d2" rx="8" /><rect x="580" y="500" width="240" height="24" fill="#dfe8f7" rx="8" /><rect x="170" y="580" width="360" height="24" fill="#dde2ea" rx="8" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>Under EPA leak repair rules — Section 608 of the Clean Air Act and, for HFC refrigerants, 40 CFR part 84 — owners of commercial refrigeration appliances with larger refrigerant charges must track how much refrigerant is added, calculate the leak rate, and repair leaks above the threshold within set deadlines. In practice the HVAC contractor who services the equipment does most of this work: the technician adds refrigerant, records it, and the office must tell the customer when the leak rate requires a repair.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>Under EPA leak repair rules — Section 608 of the Clean Air Act and, for HFC refrigerants, 40 CFR part 84 — owners of commercial refrigeration appliances with larger refrigerant charges must track how much refrigerant is added, calculate the leak rate, and repair leaks above the threshold within set deadlines. In practice the HVAC contractor who services the equipment does most of this work: the technician adds refrigerant, records it, and the office must tell the customer when the leak rate requires a repair.</p>
     <p>Many contractors still keep these records on paper service tickets or in spreadsheets. When an inspector or the customer's compliance team asks for the history of an appliance, someone has to collect years of tickets. 608 Leak Log keeps the records by appliance from the first charge.</p>
     <p>Each appliance is set up once: location, type, refrigerant and full charge. At every service call the technician logs on the phone how much refrigerant was added or recovered and why. The technician's Section 608 certification is stored with the profile, so every record shows who did the work.</p>
     <p>After each addition, the leak rate is calculated automatically and compared with the threshold for that appliance type. If it is over the threshold, the service sets the repair deadline and the dates for the initial and follow-up verification tests, and creates tasks for the office. The customer receives a short notice with the record attached.</p>
@@ -115,31 +149,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Setting up starts with your customer list. You add the sites and appliances you service, with the full charge of each system, or import them from a spreadsheet. Technicians get logins on their phones and enter their certification once. From the first service call, each refrigerant addition is logged against the right appliance.</p>
     <p>The office sees open leak repairs across all customers with their deadlines, so nothing is missed between service calls. When a customer replaces a system, its records stay archived, and the new appliance starts its own history.</p>
     <p>The service keeps records and calculations from your technicians' entries. Compliance with Section 608 remains the responsibility of the appliance owner and the certified technicians. We are not affiliated with EPA.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>Does it calculate the leak rate automatically?</h3>
-    <p>Yes, after each refrigerant addition, and compares it with the threshold for the appliance type.</p>
-    <h3>Does it track repair deadlines?</h3>
-    <p>Yes: repair deadlines and initial and follow-up verification tests, with tasks for the office.</p>
-    <h3>Can I export records for an audit?</h3>
-    <p>Yes. The full history of an appliance exports as one document.</p>
-    <h3>Is it priced per technician?</h3>
-    <p>Yes. Office users are included.</p>
-    <h3>Can I use it already?</h3>
-    <p>Not yet. The service is in preparation, and we are checking whether contractors need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Does it calculate the leak rate automatically?</h3><p>Yes, after each refrigerant addition, and compares it with the threshold for the appliance type.</p></div>
+      <div class="split flip"><h3>Does it track repair deadlines?</h3><p>Yes: repair deadlines and initial and follow-up verification tests, with tasks for the office.</p></div>
+      <div class="split flip"><h3>Can I export records for an audit?</h3><p>Yes. The full history of an appliance exports as one document.</p></div>
+      <div class="split flip"><h3>Is it priced per technician?</h3><p>Yes. Office users are included.</p></div>
+      <div class="split flip"><h3>Can I use it already?</h3><p>Not yet. The service is in preparation, and we are checking whether contractors need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Add your first appliance</h2>
-    <p><label>Technicians handling refrigerant<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>1–2</option><option>3–5</option><option>6–15</option><option>More than 15</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Add an appliance</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Add your first appliance</h2>
+    </div>
+    <div class="tile stack">
+      <label>Technicians handling refrigerant<select data-ev-focus="form_start"><option value="">— please choose —</option><option>1–2</option><option>3–5</option><option>6–15</option><option>More than 15</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Add an appliance</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>608 Leak Log</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Record keeping and calculation only. Compliance remains with the appliance owner and certified technicians. Not affiliated with EPA.</p>
+  <p>Record keeping and calculation only. Compliance remains with the appliance owner and certified technicians. Not affiliated with EPA.</p>
 </div></footer>
 
 </body>
